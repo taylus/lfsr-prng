@@ -1,4 +1,4 @@
-﻿namespace GBPrng
+﻿namespace Prng
 {
     /// <summary>
     /// Implements a random number generator using a linear feedback shift register.

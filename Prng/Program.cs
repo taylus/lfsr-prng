@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace GBPrng
+namespace Prng
 {
     public class Program
     {
@@ -10,7 +10,7 @@ namespace GBPrng
             ushort seed = 0xbabe;
             //var seed = (ushort)DateTime.Now.Ticks;
 
-            PrintRun(seed, iterations: 10);
+            PrintRun(seed, iterations: 20);
             //PrintAnalysis(seed, iterations: 1_000_000);
         }
 
